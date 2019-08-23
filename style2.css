@@ -1,0 +1,18 @@
+h1{
+animation: type 20s steps(53);
+overflow: hidden;
+color: red;
+white-space: nowrap;
+font-family: consolas;
+border-right: 4px solid black;
+width: 53ch;
+}
+ 
+@keyframes type{
+0%{
+    width: 0ch;
+}
+100%{
+    width:53ch;
+}
+} 
